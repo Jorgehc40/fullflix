@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-undef */
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Detail from "../pages/detail/Detail";
-import Home from "../pages/home/home";
+import Home from "../pages/home/Home";
 
 
 function Router() {
@@ -16,4 +16,4 @@ function Router() {
     )
 }
 
-export default Router
+export default Router;
