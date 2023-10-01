@@ -1,21 +1,13 @@
+/* eslint-disable react/jsx-no-undef */
 import Detail from "./pages/detail/Detail";
-import Home from "./pages/home/Home";
 import Router from "./router/Router";
 import categories from "./api/api";
 
 
 function App() {
   return (
-    <div className="App">
-      {categories.map((category) => {
-        return<Row
-                key={category.name}
-                title={category.title}
-                path={category.path}
-              />;
-      })}
-    </div>
-    );
+    <Router/>
+  );
 }
 
 export default App;
